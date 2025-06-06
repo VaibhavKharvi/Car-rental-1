@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Car-Rental/static/css/main.3731ff3f.css",
-    "main.js": "/Car-Rental/static/js/main.739359f2.js",
-    "index.html": "/Car-Rental/index.html",
-    "main.3731ff3f.css.map": "/Car-Rental/static/css/main.3731ff3f.css.map",
-    "main.739359f2.js.map": "/Car-Rental/static/js/main.739359f2.js.map"
+    "main.css": "/VaibhavKharvi.github.io/Car-rental-1/static/css/main.3731ff3f.css",
+    "main.js": "/VaibhavKharvi.github.io/Car-rental-1/static/js/main.203c2523.js",
+    "index.html": "/VaibhavKharvi.github.io/Car-rental-1/index.html",
+    "main.3731ff3f.css.map": "/VaibhavKharvi.github.io/Car-rental-1/static/css/main.3731ff3f.css.map",
+    "main.203c2523.js.map": "/VaibhavKharvi.github.io/Car-rental-1/static/js/main.203c2523.js.map"
   },
   "entrypoints": [
     "static/css/main.3731ff3f.css",
-    "static/js/main.739359f2.js"
+    "static/js/main.203c2523.js"
   ]
 }
