@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VaibhavKharvi.github.io/Car-rental-1/static/css/main.3731ff3f.css",
+    "main.js": "/VaibhavKharvi.github.io/Car-rental-1/static/js/main.203c2523.js",
+    "index.html": "/VaibhavKharvi.github.io/Car-rental-1/index.html",
+    "main.3731ff3f.css.map": "/VaibhavKharvi.github.io/Car-rental-1/static/css/main.3731ff3f.css.map",
+    "main.203c2523.js.map": "/VaibhavKharvi.github.io/Car-rental-1/static/js/main.203c2523.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3731ff3f.css",
+    "static/js/main.203c2523.js"
+  ]
+}
