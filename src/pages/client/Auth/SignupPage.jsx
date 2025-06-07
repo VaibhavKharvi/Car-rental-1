@@ -67,16 +67,17 @@ const SignupPage = () => {
     try {
       try {
 const res = await fetch("https://car-rental-backend-hgwt.onrender.com/api/auth/signup", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          credentials: 'include',
-          body: JSON.stringify({
-            username: formData.username,
-            email: formData.email,
-            password: formData.password,
-            confirmPassword: formData.confirmPassword
-          }),
-        });
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  credentials: 'include',
+  body: JSON.stringify({
+    username: formData.username,
+    email: formData.email,
+    password: formData.password,
+    confirmPassword: formData.confirmPassword
+  }),
+});
+
         const data = await res.json();
         
         if (!res.ok) {
