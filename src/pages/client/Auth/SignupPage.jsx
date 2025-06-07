@@ -66,7 +66,7 @@ const SignupPage = () => {
     console.log('All validations passed, submitting form'); // Debug log
     try {
       try {
-        const res = await fetch("/api/auth/signup", {
+const res = await fetch("https://car-rental-backend-hgwt.onrender.com/api/auth/signup", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           credentials: 'include',
