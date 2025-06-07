@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./SignupPage.module.css";
-
+const baseURL = process.env.REACT_APP_API_URL;
 const SignupPage = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -66,7 +66,7 @@ const SignupPage = () => {
     console.log('All validations passed, submitting form'); // Debug log
     try {
       try {
-const res = await fetch("https://car-rental-backend-hgwt.onrender.com/api/auth/signup", {
+const res = await fetch(`${baseURL}/api/auth/signup`, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   credentials: 'include',
